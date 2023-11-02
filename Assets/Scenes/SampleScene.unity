@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d971313ec3ce924b922cd0080787bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnabled: 1
+  isEnabled: 0
   planeZLength: 3
   planeXLength: 6
   transformCenter: {fileID: 128777374}
@@ -309,8 +309,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnabled: 1
-  cubeSideLength: 4
+  cubeSideLength: 3
   transformCenter: {fileID: 906585480}
+  cubeRotation: {x: 0, y: 0, z: 0}
   material: {fileID: 2100000, guid: bf1bd287f3cadf94a9b8a49b5bd8b100, type: 2}
   _cameraComponent: {fileID: 519420034}
 --- !u!4 &906585480
@@ -322,7 +323,7 @@ Transform:
   m_GameObject: {fileID: 906585478}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.82, y: -2.2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -372,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541e907afee4ec243bf1ded9bf108cef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnabled: 1
+  isEnabled: 0
   radius: 3
   transformCenter: {fileID: 1281191743}
   material: {fileID: 2100000, guid: bf1bd287f3cadf94a9b8a49b5bd8b100, type: 2}
@@ -408,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faec89dcf4c5aca4b9991c9ebe43a6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnabled: 1
+  isEnabled: 0
   numberOfSides: 16
   cylinderHeight: 15
   cylinderRadius: 1.5
@@ -459,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f31e5b546424c634b9741c25d58c2d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnabled: 1
+  isEnabled: 0
   pyramidZLength: 10
   pyramidXLength: 5
   pyramidHeight: 3
@@ -510,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9535948a48f6ef0438023cf67e43b822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnabled: 1
+  isEnabled: 0
   capsuleLength: 15
   radius: 1.5
   transformCenter: {fileID: 1769676260}
@@ -538,8 +539,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 1281191743}
   - {fileID: 906585480}
+  - {fileID: 1281191743}
   - {fileID: 128777374}
   - {fileID: 1358839492}
   - {fileID: 1307453006}
